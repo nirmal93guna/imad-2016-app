@@ -5,7 +5,7 @@
         <link href="/ui/style.css" rel="stylesheet" />
         <script>
             //Counter Code
-            var countShow = document.getElementsByTagName("span")[3];
+            var countShow = document.getElementById("showCounter");
             
             function counterClick(){
                 
@@ -50,7 +50,7 @@
             </div>
             <div class="footer">
                 <button onclick="counterClick()">Counter</button>
-                <span>
+                <span id="showCounter">
                     
                 </span>
             </div>

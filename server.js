@@ -11,7 +11,8 @@ app.get('/', function (req, res) {
 
 var counter = 0;
 app.get('/counter', function (req, res) {
-  res.sendHTML(counter++); 
+    counter++;
+  res.send(counter.toString()); 
 });
 
 app.get('/article-1', function (req, res) {

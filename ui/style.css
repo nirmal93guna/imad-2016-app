@@ -48,7 +48,7 @@ html, body {
     margin: none;
 }
 .container > .content { 
-    height: 70%;
+    height: 60%;
     /*background-color: dimgray;*/
     /*border: 1px solid blue;*/
     box-sizing: border-box;
@@ -76,4 +76,14 @@ a:hover {
 a:active {
     text-decoration: underline;
     color: grey;
+}
+.footer {
+    height: 10%;
+    width: 100%;
+    color: teal;
+    font-size: 14pt;
+}
+.footer > span {
+    float: right;   
+    width: 20%;
 }

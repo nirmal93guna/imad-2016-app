@@ -35,9 +35,40 @@ html, body {
     /*border: 1px solid red;*/
     box-sizing: border-box;
 }
+.header > span:nth-child(2) > a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: none;
+    background-color: white;
+}
 .container > .content { 
     height: 70%;
     /*background-color: dimgray;*/
     /*border: 1px solid blue;*/
     box-sizing: border-box;
+}
+.content {
+    padding: 5%;
+    font-size: 22pt;
+}
+ul {
+    list-style-position:inside; 
+}
+a:link {
+    text-decoration: none;
+    color: grey;
+}
+a:visited {
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+a:active {
+    text-decoration: underline;
+    color: grey;
 }

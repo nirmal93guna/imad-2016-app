@@ -4,10 +4,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/ui/style.css" rel="stylesheet" />
         <script>
-            function nameClick(){
-                var name = document.getElementsByTagName("h1")[0];
-                name.style.color = "teal";
+
+            var count = 0;
+            function counterClick(){
+                count++;
+                countShow = document.getElementsByTagName("span")(2);
+                countShow.innerHTML = count;
             }
+            
         </script>
     </head>
     <body>
@@ -28,6 +32,12 @@
                     <li><a href="/article-2">Article-2</a></li><hr>
                     <li><a href="/article-3">Article-3</a></li>                    
                 </ul>
+            </div>
+            <div class="footer">
+                <button onclick="counterClick()">Counter</button>
+                <span>
+                    
+                </span>
             </div>
 
         </div>

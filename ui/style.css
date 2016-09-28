@@ -42,6 +42,11 @@ html, body {
     margin: none;
     background-color: white;
 }
+.header > span:nth-child(2) > img {
+    height: 100%;
+    width: 100%;
+    margin: none;
+}
 .container > .content { 
     height: 70%;
     /*background-color: dimgray;*/

@@ -3,13 +3,19 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/ui/style.css" rel="stylesheet" />
+        <script>
+            function nameClick(){
+                var name = document.getElementsByTagName("h1")[0];
+                name.style.color = "teal";
+            }
+        </script>
     </head>
     <body>
         <div class="container">
 
             <div class="header">
                 <span>
-                    <h1>NIRMAL GUNA</h1>
+                    <h1 onclick="nameClick()">NIRMAL GUNA</h1>
                 </span>
                 <span>
                     
